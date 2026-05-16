@@ -116,7 +116,7 @@ export function DashboardTasksClient({
       <div className="text-center py-8">
         <p className="text-muted-foreground text-sm mb-4">No tasks generated for today.</p>
         <Button variant="solid" onClick={generateTodos} isLoading={generating}>
-          ⚡ Generate today's tasks
+          ⚡ Generate today&apos;s tasks
         </Button>
       </div>
     );
@@ -151,7 +151,7 @@ export function DashboardTasksClient({
       {todo.items && todo.items.length > 0 && (
         <div className="mt-6 border-t border-matrix-border pt-4">
           <div className="flex items-center justify-between mb-3">
-            <h3 className="text-sm font-bold text-white">Today's Tasks</h3>
+            <h3 className="text-sm font-bold text-white">Today&apos;s Tasks</h3>
             <span className="text-xs text-muted-foreground">{todo.items.length} tasks total</span>
           </div>
           <div className="space-y-2">
