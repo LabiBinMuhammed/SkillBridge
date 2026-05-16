@@ -63,10 +63,10 @@ export default function StudentClubsPage() {
           {clubs.map((c) => {
             const isCurrent = currentClub?.id === c.id;
             return (
-              <Card key={c.id} className={\`transition-all \${isCurrent ? 'border-neon-green ring-1 ring-neon-green/50 scale-[1.02]' : 'hover:border-neon-green/30'}\`}>
+              <Card key={c.id} className={`transition-all ${isCurrent ? 'border-neon-green ring-1 ring-neon-green/50 scale-[1.02]' : 'hover:border-neon-green/30'}`}>
                 <CardBody className="p-6">
                   <div className="flex items-center gap-4 mb-4">
-                    <div className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl" style={{ background: \`\${c.color}15\` }}>
+                    <div className="w-14 h-14 rounded-xl flex items-center justify-center text-3xl" style={{ background: `${c.color}15` }}>
                       {c.icon}
                     </div>
                     <div>
