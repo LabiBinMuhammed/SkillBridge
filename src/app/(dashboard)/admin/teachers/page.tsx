@@ -130,7 +130,7 @@ export default function TeachersPage() {
                       {file ? file.name : "Select CSV file"}
                     </span>
                     <span className="text-xs text-white/50">
-                      Include 'club' and 'club_role' headers
+                      Include &apos;club&apos; and &apos;club_role&apos; headers
                     </span>
                   </label>
                 </div>
