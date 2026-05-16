@@ -36,7 +36,7 @@ export function CoinsClient({
   const [redeemSuccess, setRedeemSuccess] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("all");
 
-  const categories = ["all", ...new Set(catalog.map((r) => r.category))];
+  const categories = ["all", ...Array.from(new Set(catalog.map((r) => r.category)))];
 
   const filteredCatalog = selectedCategory === "all"
     ? catalog
