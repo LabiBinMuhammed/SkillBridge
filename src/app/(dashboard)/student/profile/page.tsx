@@ -41,7 +41,7 @@ export default async function StudentProfilePage() {
             </div>
             <h2 className="text-xl font-bold text-white">{profile.full_name}</h2>
             <p className="text-sm text-muted-foreground mb-4">{profile.roll_number}</p>
-            <RankBadge rank={profile.rank} size="lg" />
+            <RankBadge rank={profile.rank} size="md" />
             <p className="text-xs text-muted-foreground mt-3">Member since {formatDate(profile.created_at)}</p>
           </div>
 
