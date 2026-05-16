@@ -5,8 +5,8 @@
   "installCommand": "npm install",
   "outputDirectory": ".next",
   "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase-url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase-anon-key",
-    "SUPABASE_SERVICE_ROLE_KEY": "@supabase-service-role-key"
+    "NEXT_PUBLIC_SUPABASE_URL": "https://srnkknpsmgqjkborjxtt.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNybmtrbnBzbWdxamtib3JqeHR0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg4NTM3NTksImV4cCI6MjA5NDQyOTc1OX0.8dhhAScihuVCn368BoaK26KSBSTY1mcaywewXGVqAio",
+    "SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNybmtrbnBzbWdxamtib3JqeHR0Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3ODg1Mzc1OSwiZXhwIjoyMDk0NDI5NzU5fQ.Vj4QV9-CQNyWw8g7076k2sh1MQ6fvnxZ-SoDOdJGhCYNEXTAUTH_SECRET=your-nextauth-secret-32-chars-min"
   }
 }
