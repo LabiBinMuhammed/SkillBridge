@@ -64,7 +64,7 @@ export default async function TeacherApprovalsPage() {
     <div className="space-y-6">
       <div>
         <h1 className="text-3xl font-black text-white">Task Approvals</h1>
-        <p className="text-muted-foreground mt-1">Review and manage your mentees' task submissions.</p>
+        <p className="text-muted-foreground mt-1">Review and manage your mentees&apos; task submissions.</p>
       </div>
 
       <ApprovalsClient initialData={pendingApprovals} />
