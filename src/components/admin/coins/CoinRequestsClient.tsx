@@ -100,7 +100,7 @@ export function CoinRequestsClient({
                         <p className="font-bold text-white">{req.student?.full_name || "Unknown Student"}</p>
                         <p className="text-xs text-muted-foreground">{formatRelativeTime(req.created_at)}</p>
                       </div>
-                      <Badge variant="warning">Pending</Badge>
+                      <Badge variant="gold">Pending</Badge>
                     </div>
 
                     <div className="flex-1 flex flex-col items-center justify-center py-6 bg-matrix-surface rounded-xl border border-matrix-border mb-4">
@@ -159,9 +159,9 @@ export function CoinRequestsClient({
                     </div>
                     <div>
                       {req.status === "approved" ? (
-                        <Badge variant="success">Approved</Badge>
+                        <Badge variant="green">Approved</Badge>
                       ) : (
-                        <Badge variant="danger">Rejected</Badge>
+                        <Badge variant="red">Rejected</Badge>
                       )}
                     </div>
                   </div>
