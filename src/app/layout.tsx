@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -16,6 +16,10 @@ const jetbrainsMono = JetBrains_Mono({
   weight: ["300", "400", "500", "600", "700"],
 });
 
+export const viewport: Viewport = {
+  themeColor: "#00FF41",
+};
+
 export const metadata: Metadata = {
   title: {
     default: "Skill Bridge — Campus Intelligence & Gamification Engine",
@@ -25,7 +29,6 @@ export const metadata: Metadata = {
     "Skill Bridge is a unified campus intelligence platform that transforms your career dreams into daily actionable tasks, tracks academic progress in real-time, and rewards you with a gamified coin economy.",
   keywords: ["skill bridge", "campus", "gamification", "student productivity", "academic tracking", "dream skills"],
   authors: [{ name: "Skill Bridge Team" }],
-  themeColor: "#00FF41",
   openGraph: {
     type: "website",
     locale: "en_US",
